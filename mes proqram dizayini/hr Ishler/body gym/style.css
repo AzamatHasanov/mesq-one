@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0013a7f5;
+}
+
+
+/*! navbar start */
+
+.flex-nav {
+    display: flex;
+}
+
+.text-nav {
+    color: white;
+    font-size: 35px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Dropdown menü içeriği için stil */
+
+
+/*! svg background start */
+
+.custom-shape-divider-bottom-1698604449 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1698604449 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-bottom-1698604449 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.button-hover {
+    width: 160px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #0014A7;
+    cursor: pointer;
+    color: white;
+    transition: border-color 0.35s;
+}
+
+.button-hover:hover {
+    border-color: rgb(0, 119, 255);
+}
+
+.button-hover:focus,
+.button-hover:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+/*! hover navbar */
+
+.button-hover.btn.btn-white {
+    color: #ffffff;
+}
+
+.button-hover.btn.btn-white:hover {
+    border-color: rgb(0, 119, 255);
+}
+
+.button-hover.btn.btn-blue {
+    background-color: #0014A7;
+    color: white;
+}
+
+.button-hover.btn.btn-blue:hover {
+    border-color: rgb(0, 119, 255);
+}
+
+.dropdown-menu.dropdown-menu-dark {
+    background-color: #0014A7;
+}
+
+.text-1 {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* ?nav start dizyin*/
+
+
+/* ? main start */
+
+.start-main-cotegory {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-text h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    color: rgb(0, 252, 231);
+}
+
+
+/* start premium */
+
+.premium-bottom {
+    margin-bottom: 50px;
+}
+
+.img-medal {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-medal img {
+    width: 150px;
+}
+
+
+/*! premium hesab woman uchun */
+
+
+/* qiraq 90 deg xetler asaqi */
+
+.woman-premium-column {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.woman-left-line {
+    border: 1px solid rgb(0, 119, 255);
+    width: 400px;
+}
+
+.woman-premium-hesab {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woman-premium-hesab-inside div {
+    border-radius: 7px;
+    padding: 15px;
+    width: fit-content;
+    border: 2px solid rgb(0, 119, 255);
+}
+
+.woman-premium-hesab-inside div h5 {
+    color: white;
+}
+
+
+/*qiraq 90 deg xetler asaqi birlesen div  */
+
+.woman-premium-inside-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.woman-premium-inside div {
+    margin-top: 50px;
+    width: fit-content;
+    border: 2px solid rgb(0, 119, 255);
+    padding: 20px;
+}
+
+.woman-premium-inside div ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* qiymet button */
+
+.button {
+    position: relative;
+    border: none;
+    color: #e8e8e8;
+    background: #0003d2;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+.button .span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition-delay: 0.6s;
+}
+
+.button:hover .span:nth-child(1) {
+    transform: translateY(-100%);
+    transition-delay: 0s;
+}
+
+.button:hover .span:nth-child(2) {
+    transform: translateY(-100%);
+    transition-delay: 0s;
+}
+
+.button:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-45deg, rgb(0, 119, 255) 0%, #00dbde 100%);
+    transform: scaleX(0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition-delay: 0;
+    transform-origin: left;
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+    transition-delay: 0.6s;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+
+/* qiymet buttn finish */
+
+
+/* !man kisiler uhcun */
+
+.man-top {
+    margin-top: 100px;
+}
+
+
+/* premium yazilisi */
+
+.woman-left-line2 {
+    border: 1px solid rgb(0, 119, 255);
+    width: 400px;
+}
+
+.woman-premium-hesab2 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woman-premium-hesab-inside2 div {
+    border-radius: 7px;
+    padding: 15px;
+    width: fit-content;
+    border: 2px solid rgb(0, 119, 255);
+}
+
+.woman-premium-hesab-inside2 div h5 {
+    color: rgb(0, 0, 0);
+}
+
+
+/* premium aciqlama start */
+
+.backgroun-container {
+    background-color: rgb(234, 219, 191);
+}
+
+.option-start-aciklama {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-start-aciklama img {
+    width: 150px;
+}
+
+
+/* premium text start */
+
+.aboute-gym-woman-man {
+    margin-top: 100px;
+}
+
+.aboute-gym-woman-man div ul {
+    list-style: none;
+}
+
+.aboute-gym-woman-man div ul li:nth-child(1) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.aboute-gym-woman-man div ul li:nth-child(2) {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.564);
+}
+
+.aboute-gym img {
+    width: 200px;
+}
+
+.aboute-gym-woman-flex {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboute-gym-plas img {
+    width: 100px;
+}
+
+.color-woman {
+    color: black;
+}
+
+
+/* step 2 premium woman */
+
+.aboute-gym-woman-flex2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* telefon ekrani start */
+
+@media only screen and (max-width: 760px) {
+    /* main start */
+    .start-main-cotegory {
+        padding: 10px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-direction: row;
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        gap: 10px;
+        margin-left: 30px;
+    }
+    .main-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .main-text h3 {
+        font-size: 40px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .main-text h1 {
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 252, 231);
+    }
+    .main-icon-div img {
+        width: 180px;
+    }
+    .button-hover {
+        display: none;
+    }
+    /* premium hesab start */
+    /* img medal */
+    .img-medal img {
+        margin-top: 300px;
+        width: 100px;
+    }
+    /* woman prem hesab */
+    .woman-premium-hesab {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .woman-premium-hesab-inside div {
+        border-radius: 7px;
+        padding: 15px;
+        width: fit-content;
+        border: 2px solid rgb(0, 119, 255);
+    }
+    .woman-premium-hesab-inside div h5 {
+        color: white;
+    }
+    /* woman-premium-inside */
+    /* premium typing */
+    .woman-premium-hesab-inside2 div {
+        border-radius: 7px;
+        padding: 12px;
+        width: 200px;
+    }
+    .woman-premium-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .woman-premium-inside-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .woman-premium-inside div {
+        margin-top: 50px;
+        width: fit-content;
+        border: 2px solid rgb(0, 119, 255);
+        padding: 20px;
+    }
+    .woman-premium-inside div ul {
+        list-style: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* premium about */
+    .aboute-gym-plas img {
+        width: 48px;
+    }
+    .aboute-gym-woman-man div ul li:nth-child(1) {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .aboute-gym-woman-man div ul li:nth-child(2) {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.564);
+    }
+    .aboute-gym img {
+        width: 93px;
+    }
+    .option-start-aciklama img {
+        width: 130px;
+    }
+    .aboute-gym-woman-flex {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        gap: 5px;
+        justify-content: start;
+        align-items: center;
+    }
+}
